@@ -3,7 +3,7 @@
 
 function multiply(arr){
     let product = 1;
-    forEach(num => product *= num)
+    arr.forEach(num => product *= num)
     alert(product)
 }
 // example
